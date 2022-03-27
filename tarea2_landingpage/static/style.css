@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 200%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #FFFFFF 50%, #CF1512 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #FFFFFF 50%, #CF1512 100%);
+    background: linear-gradient(to right, #121FCF 0%, #FFFFFF 50%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Merriweather";
+    font-size: 13vw;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto Slab";
+    text-align: center;
+    font-size: 400%;
+}
+
+h3 {
+    font-family: "Merriweather";
+    font-size: 250%;
+    text-align: center;
+    margin: 30px 200px 30px 200px;
+}
+
+h4 {
+    font-family: "Merriweather";
+    font-size: 200%;
+    text-align: center;
+}
+
+.image_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.separation {
+    height: 30px;
+    width: 100%;
+}
+
+nav {
+    font-family: "Roboto Slab";
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: right;
+    background: rgb(10,0,158);
+    background: linear-gradient(45deg, rgba(10,0,158,1) 0%, rgba(255,255,255,1) 50%, rgba(158,0,0,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    display: inline;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom left;
+}
+
+.highlight {
+    color: #00245e;
+}
+
+i {
+    font-size: 30px;
+    color: #00245e;
+}
+
+.facts {
+    text-align: center;
+}
+
+.contact {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: "Merriweather";
+}
+
+.footer {
+    display: inline;
+    margin: 150px;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+    font-family: "Merriweather";
+}
+
+.container .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    float: left;
+}
+
+.container .slider .slide {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.container .slider .slide .caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 3px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.container .slider .slide .caption h5 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+.container .slider .slide.slide1 {
+    background: url(https://i.natgeofe.com/k/04665f4a-3f8d-4b62-8ca3-09ce7dfc5a20/france-eiffel-tower.jpg?w=636&h=358);
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide2 {
+    background: url(https://i0.wp.com/leparisdalexis.fr/wp-content/uploads/2017/01/la-place-de-l-etoile.jpg?fit=1024%2C576&ssl=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide3 {
+    background: url(https://a.cdn-hotels.com/gdcs/production116/d1129/3f933640-a527-11e8-bc7c-0242ac110002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide4 {
+    background: url(https://cdn.theculturetrip.com/wp-content/uploads/2020/03/gettyimages-818591066.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide5 {
+    background: url(https://en.normandie-tourisme.fr/wp-content/uploads/sites/3/2020/04/rouen-place-vieux-marche-nuit-herve-sentucq.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container .slider .slide.slide6 {
+    background: url(https://img.static-af.com/images/meta/IDname/CITY-MRS-1?aspect_ratio=2:1&max_width=1920);
+    background-size: cover;
+    background-position: center;
+}
